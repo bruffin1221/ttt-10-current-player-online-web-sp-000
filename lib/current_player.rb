@@ -6,9 +6,9 @@ end
 end
 
 def current_player(board)
-if turn_count(board).even?
+if turn_count(1).odd?
   puts "O"
-elsif turn_count(board).odd?
+elsif turn_count(2).even?
   puts "X"
 end
 end

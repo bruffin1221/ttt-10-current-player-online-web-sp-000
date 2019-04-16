@@ -6,9 +6,11 @@ end
 end
 
 def current_player(board)
-if turn_count(1).odd?
-  puts "O"
-elsif turn_count(2).even?
-  puts "X"
+  board=["X","Y"]
+  each do |board|
+if board.even?
+  puts "#{board[X]}"
+elsif board.odd?
+  puts "#{board[O]}"
 end
 end

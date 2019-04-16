@@ -11,4 +11,5 @@ if turn_count(board).odd?
 else turn_count(board).even
   return "O"
 end
+current_player(board)
 end

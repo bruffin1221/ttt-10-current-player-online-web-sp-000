@@ -6,9 +6,9 @@ end
 end
 
 def current_player(board)
-if turn_count(board).even?==0
+if turn_count(board).even?
   puts "O"
-else turn_count(board).odd?==1
+else turn_count(board).odd?
   puts "X"
 end
 end

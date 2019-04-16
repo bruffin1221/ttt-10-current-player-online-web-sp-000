@@ -6,11 +6,9 @@ end
 end
 
 def current_player(board)
-  board=["X","Y"]
-  each do |board|
 if board.even?
-  puts "#{board[X]}"
+  puts "X"
 elsif board.odd?
-  puts "#{board[O]}"
+  puts "O"
 end
 end

@@ -1,6 +1,6 @@
 def turn_count(board)
 board=0
-  if board==2
+  if board=2
   board+=1
 end
 end

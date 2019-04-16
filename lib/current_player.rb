@@ -6,9 +6,9 @@ end
 end
 
 def current_player(board)
-if board%2==0
+if current_player(board)%2==0
   return "O"
-else board%2==1
+else current_player(board)%2==1
   return "X"
 end
 end

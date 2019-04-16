@@ -11,3 +11,4 @@ if turn_count(board).even?
 elsif turn_count(board).odd?
   puts "X"
 end
+end

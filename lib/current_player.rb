@@ -6,6 +6,7 @@ end
 end
 
 def current_player(board)
+  current_player="X"
 if turn_count(board).odd?
   return "X"
 elsif current_player(board)

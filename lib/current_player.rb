@@ -8,7 +8,7 @@ end
 def current_player(board)
 if turn_count(board)%2==0
   return "O"
-else turn_board
+else turn_count(board)
   return "X"
 end
 end

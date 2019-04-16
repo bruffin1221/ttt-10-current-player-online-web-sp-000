@@ -11,4 +11,3 @@ if turn_count(board)%2==0
 else turn_count(board).even?
   return "O"
 end
-end
